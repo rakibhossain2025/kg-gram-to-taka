@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KG and gm  To Money</title>
+  <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+  <h1 class="text-2xl text-center mb-3 bg-gray-300 text-black"> No need to ঠকা because this is for you now calculate money here </h1>
+<div style="height: 100vh;">
+ <div style="height: 100vh;" class="bg-black lg:w-1/2 lg:mx-auto rounded-xl space-y-4">
+  <div class="bg-[#581845] rounded-xl p-4">
+   
+    <h2 class="ml-4 text-xl mb-4">your KG : <span id="toalkg">00</span></h2>
+    <h2 class="ml-4 text-xl mb-4">your Gram : <span id="toalgm">00</span></h2>
+    <h2 class="ml-4 text-xl mb-4">total : <span id="toaltaka">00</span></h2>
+
+</div>
+<div>
+<fieldset  style="background-color: black;" class="fieldset m-2 border border-white-300 p-5 rounded-box ">
+  <legend class="text-2xl px-4 w-auto text-center">KG to Taka</legend>
+  
+  <label class="fieldset-label text-xl">Your KG</label>
+  <input id="input-1" type="number" class="input text-xl capitalize w-full" placeholder="total KG" />
+  
+  <label class="fieldset-label capitalize  text-xl">Your extra GM</label>
+  <input id="input-2" type="number" class="input w-full capitalize text-xl" placeholder="if have GM" />
+
+  <label class="fieldset-label text-xl">Taka per KG</label>
+  <input id="input-3" type="number" class="input capitalize text-xl w-full" placeholder="taka per KG" />
+  
+  <button id="calculate" class="btn btn-success text-lg mt-4">Calculate</button>
+</fieldset>
+ </div>
+</div>
+</div>
+
+
+  <script src="app.js"></script>
+</body>
+</html>
